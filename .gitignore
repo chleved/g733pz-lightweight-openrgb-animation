@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sub-repository
+OpenRGB/
+
+# Logs and runtime stats
+effect.log
+key_stats.json
+
+# Local scripts & workspace scratch
+conversations/
+check_openrgb.py
+deploy_openrgb.bat
+resume_conversation.bat
+phase1_probe.ps1
+phase2_cluster_test.ps1
+probe_lightbar.ps1
+test_num_enter_125.ps1

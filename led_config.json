@@ -1,0 +1,59 @@
+{
+  "idle_timeout_sec": 10,
+  "idle_fade_sec": 3.0,
+  "fps": 40,
+  "groups": {
+    "lightbar": {
+      "default": "#000000",
+      "active": "#000000",
+      "fade_sec": 0.1
+    },
+    "fn_key": {
+      "default": "#7b0000",
+      "active": "#7b0000",
+      "fade_sec": 0.1
+    },
+    "mouse": {
+      "default": "#ff5500",
+      "active": "#ffff00",
+      "fade_sec": 2.0
+    },
+    "kb": {
+      "default": "#7f5d00",
+      "active": "#ff0000",
+      "fade_sec": 2.0
+    },
+    "special_kb": {
+      "default": "#7B0000",
+      "active": "#003AFF",
+      "fade_sec": 2.0
+    },
+    "most_used_kb": {
+      "default": "#676767",
+      "active": "#0000ff",
+      "fade_sec": 2.0
+    }
+  },
+  "key_groups": {
+    "lightbar_l1": "lightbar",
+    "lightbar_l2": "lightbar",
+    "lightbar_l3": "lightbar",
+    "lightbar_r3": "lightbar",
+    "lightbar_r2": "lightbar",
+    "lightbar_r1": "lightbar",
+    "fn": "fn_key",
+    "q": "most_used_kb",
+    "a": "most_used_kb",
+    "s": "most_used_kb",
+    "w": "most_used_kb",
+    "e": "most_used_kb",
+    "d": "most_used_kb",
+    "f": "most_used_kb",
+    "r": "most_used_kb",
+    "vol_down": "special_kb",
+    "vol_up": "special_kb",
+    "mute": "special_kb",
+    "fan": "special_kb",
+    "rog": "special_kb"
+  }
+}

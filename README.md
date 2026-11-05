@@ -1,3 +1,7 @@
+# WARNING
+
+Script deactivates keyboard while playing full screen games occasionally
+
 # G733PZ Lightweight OpenRGB Animation
 
 A lightweight, low-resource OpenRGB animation service tailored for the ASUS ROG Strix SCAR 17 (G733PZ) laptop keyboard, mouse, and chassis lightbar.

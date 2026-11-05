@@ -61,3 +61,18 @@ To sweep or identify specific keyboard/chassis LED index addresses:
 .\probe.ps1 -Range 165,180   # Auto sweep a range of indices
 .\probe.ps1 -Reset           # Turn off probe and restore normal control
 ```
+
+## Hardware Quirks & Troubleshooting
+
+### G733PZ Front Lightbar Direct Mode Mirroring
+On the ASUS ROG Strix SCAR 17 (G733PZ), a hardware initialization quirk may cause the 6 front chassis lightbar LEDs to link to keyboard keys (`Left Ctrl`, `Fn`, `Win`, `Num 0`, `Num .`, and `Num Enter`) instead of acting as independent addressable zones.
+
+**Resolution**:
+1. Open the **OpenRGB** application.
+2. In the device settings, switch the mode from **Direct** to any other mode (e.g. *Static* or *Breathing*).
+3. Switch the mode back to **Direct**.
+
+Toggling modes forces OpenRGB to transmit the proper Direct mode initialization sequence to the laptop's controller, restoring discrete addressability to the lightbar segments.
+
+> **Tip**: Save this configuration as an OpenRGB profile to load automatically on boot.
+
